@@ -1,0 +1,42 @@
+header h1 {
+  color: #6e85b2;
+  background-color: #261c2c;
+}
+
+header h2 {
+  color: #6e85b2;
+  background-color: #261c2c;
+}
+
+header {
+  display: grid;
+  place-items: center;
+  background-color: #261c2c;
+}
+
+.flex {
+  margin-top: 1vw;
+  display: grid;
+  place-items: center;
+}
+
+footer {
+  margin-bottom: 0;
+  display: grid;
+  place-items: center;
+  background-color: #261c2c;
+}
+
+footer h4 {
+  color: #6e85b2;
+  background-color: #261c2c;
+}
+
+h2 {
+  text-align: center;
+}
+
+.container {
+  display: grid;
+  place-content: center !important;
+}
