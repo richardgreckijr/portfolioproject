@@ -40,3 +40,7 @@ h2 {
   display: grid;
   place-content: center !important;
 }
+
+#longText {
+  max-width: 800px;
+}
