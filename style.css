@@ -1,17 +1,22 @@
+* {
+  box-sizing: border-box;
+}
+
 header h1 {
-  color: #6e85b2;
-  background-color: #261c2c;
+  color: #d7d7d7;
+  background-color: #9b9b9c;
 }
 
 header h2 {
-  color: #6e85b2;
-  background-color: #261c2c;
+  color: #d7d7d7;
+  background-color: #9b9b9c;
 }
 
 header {
+  margin: 0;
   display: grid;
   place-items: center;
-  background-color: #261c2c;
+  background-color: #9b9b9c;
 }
 
 .flex {
@@ -21,15 +26,15 @@ header {
 }
 
 footer {
-  margin-bottom: 0;
+  margin: 0;
   display: grid;
   place-items: center;
-  background-color: #261c2c;
+  background-color: #848484;
 }
 
 footer h4 {
-  color: #6e85b2;
-  background-color: #261c2c;
+  color: #d7d7d7;
+  background-color: #848484;
 }
 
 h2 {
@@ -43,4 +48,28 @@ h2 {
 
 #longText {
   max-width: 800px;
+}
+
+main {
+  background-image: url("/images/wallpaper.jpg");
+  min-height: 100vh;
+  min-width: 100vw;
+  overflow: hidden;
+  background-size: cover;
+  background-position: top right;
+  font-family: "Noto Sans JP", sans-serif;
+}
+
+hr {
+  max-width: 800px;
+}
+
+a:visited {
+  color: #d7d7d7;
+}
+
+@media only screen and (max-width: 900px) {
+  main {
+    padding: 100px;
+  }
 }
